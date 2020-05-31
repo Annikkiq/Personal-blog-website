@@ -1,0 +1,13 @@
+@import "/Personal-blog-website/css/navigation.css";
+
+.container {
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    grid-template-columns: 25% 25% auto;
+    grid-template-rows: 25% 25% auto;
+    gap: 5px;
+    grid-template-areas:
+    "nav nav nav"
+    "bg bg bg"
+    "ft ft ft";
+}
