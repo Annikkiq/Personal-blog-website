@@ -1,0 +1,22 @@
+.blog-post {
+    grid-area: main;
+    margin-top: 1rem;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.about-section {
+    grid-area: about;
+    margin-top: 1rem;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.social-media {
+    grid-area: sc;
+    margin-top: 2rem;
+}

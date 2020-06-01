@@ -1,7 +1,8 @@
 @import "/style/navigation.css";
 @import "/style/card.css";
 @import "/style/footer.css";
-
+@import "./style/blog-title.css";
+@import "./style/blog-content.css";
 *,
 *::after,
 *::before { 
@@ -20,4 +21,17 @@
     "nav nav nav nav"
     "bg bg bg bg"
     "ft ft ft ft";
+}
+
+.blog-container {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(6.25rem, auto);
+    gap: 10px;
+    grid-template-areas: 
+    "title title"
+    "main about"
+    "main sc"
+    "footer footer";
 }

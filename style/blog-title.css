@@ -1,0 +1,7 @@
+.blog-header {
+    background: linear-gradient(0.25turn, #b18de0, #a1f9fc, #59f7b5);
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
