@@ -1,13 +1,22 @@
 @import "/style/navigation.css";
+@import "/style/card.css";
+
+*,
+*::after,
+*::before { 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 
 .container {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     display: grid;
-    grid-template-columns: 25% 25% auto;
-    grid-template-rows: 25% 25% auto;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: minmax(6.25rem, auto);
     gap: 5px;
     grid-template-areas:
-    "nav nav nav"
-    "bg bg bg"
-    "ft ft ft";
+    "nav nav nav nav"
+    "bg bg bg bg"
+    "ft ft ft ft";
 }
