@@ -3,6 +3,7 @@
     display: flex;
     flex-flow: row wrap;
     margin-top: 2em;
+    margin-left: 2em;
     height: 50vh;
 }
 
@@ -12,7 +13,8 @@
 }
 
 .card {
-    background-image: linear-gradient(to right, #722cb4e7, #b688d1d3);
+    background-image: linear-gradient(to right, #722cb4e7, #a068c0e0);
+    color: #fff;
     padding: 3em;
     margin-right: 3em;
     border-radius: 3px;
@@ -21,6 +23,18 @@
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
+.card a {
+    color: #fff;
+    text-decoration: none;
+}
+.card a:hover {
+    text-shadow: .3em .2em 10px black;
+}
+
+.card a:active{
+    color: black;
+}
+
 .card:hover {
     transform: translateY(-.4em) scale(1.1);
     transition: transform .3s;
