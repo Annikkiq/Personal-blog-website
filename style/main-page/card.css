@@ -13,8 +13,12 @@
 }
 
 .card {
-    background-image: linear-gradient(to right, #722cb4e7, #a068c0e0);
-    color: #fff;
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+    color: black;
     padding: 3em;
     margin-right: 3em;
     border-radius: 3px;
@@ -23,12 +27,59 @@
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
+
+.card-1 {
+    background-image: url("../../pic1-unsplash.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-2 {
+    background-image: url("../../pic2-unsplash.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-3 {
+    background-image: url("../../pic3-unsplash.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-4 {
+    background-image: url("../../pic4-unsplash.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .card a {
     color: #fff;
     text-decoration: none;
 }
-.card a:hover {
-    text-shadow: .3em .2em 10px black;
+
+.card button {
+    background-image: linear-gradient(to right, rgb(52, 122, 168), rgb(201, 92, 168));
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.card button:hover {
+    box-shadow: .3em .2em 20px rgba(255, 255, 255, 0.521);
 }
 
 .card a:active{
@@ -46,4 +97,5 @@
     -moz-transform: translateY(-.4em) scale(1.1);
     -ms-transform: translateY(-.4em) scale(1.1);
     -o-transform: translateY(-.4em) scale(1.1);
+    box-shadow: .3em .2em 20px rgba(0, 0, 0, 0.521);
 }

@@ -1,6 +1,7 @@
 .blog-post {
     grid-area: main;
     margin-top: 1rem;
+    margin-left: 2rem;
     display: inline-flex;
     flex-flow: column nowrap;
     justify-content: stretch;
@@ -10,9 +11,17 @@
 
 .blog-post-2 {
     grid-area: main2;
+    margin-left: 2rem;
     display: inline-flex;
     flex-flow: column nowrap;
     justify-content: stretch;
     align-items: center;
     text-align: center;
+}
+
+.link-1,
+.link-2,
+.link-3 {
+    text-decoration: none;
+    color: #af6cce;
 }
