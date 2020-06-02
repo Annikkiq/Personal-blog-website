@@ -1,0 +1,17 @@
+.blog-header {
+    grid-area: title;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0.25turn, #b18de0, #a1f9fc, #59f7b5);
+    width: 100vw;
+    height: 5rem;
+}
+
+.go-back {
+    grid-area: title;
+    display: inline-flex;
+    align-self: center;
+    text-decoration: none;
+}

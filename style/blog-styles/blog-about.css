@@ -1,0 +1,9 @@
+.about-section {
+    grid-area: about;
+    margin-top: 1rem;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}

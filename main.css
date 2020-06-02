@@ -1,8 +1,12 @@
-@import "/style/navigation.css";
-@import "/style/card.css";
-@import "/style/footer.css";
-@import "./style/blog-title.css";
-@import "./style/blog-content.css";
+@import "/style/main-page/navigation.css";
+@import "/style/main-page/card.css";
+@import "/style/main-page/footer.css";
+@import "/style/blog-styles/blog-title.css";
+@import "/style/blog-styles/blog-post.css";
+@import "/style/blog-styles/blog-about.css";
+@import "/style/blog-styles/blog-media.css";
+@import "/style/blog-styles/blog-footer.css";
+
 *,
 *::after,
 *::before { 
@@ -27,11 +31,11 @@
     font-family: 'Roboto Condensed', sans-serif;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: minmax(6.25rem, auto);
-    gap: 10px;
+    grid-template-rows: minmax(5rem, auto);
+    gap: 5px;
     grid-template-areas: 
     "title title"
     "main about"
-    "main sc"
+    "main2 sc"
     "footer footer";
 }

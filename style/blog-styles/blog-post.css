@@ -1,0 +1,18 @@
+.blog-post {
+    grid-area: main;
+    margin-top: 1rem;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-post-2 {
+    grid-area: main2;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    align-items: center;
+    text-align: center;
+}
