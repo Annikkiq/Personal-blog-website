@@ -9,7 +9,7 @@
 
 *,
 *::after,
-*::before { 
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -22,9 +22,9 @@
     grid-template-rows: minmax(6.25rem, auto);
     gap: 5px;
     grid-template-areas:
-    "nav nav nav nav"
-    "bg bg bg bg"
-    "ft ft ft ft";
+        "nav nav nav nav"
+        "bg bg bg bg"
+        "ft ft ft ft";
 }
 
 .blog-container {
@@ -33,9 +33,9 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: minmax(5rem, auto);
     gap: 5px;
-    grid-template-areas: 
-    "title title"
-    "main about"
-    "main2 sc"
-    "footer footer";
+    grid-template-areas:
+        "title title"
+        "main about"
+        "main2 sc"
+        "footer footer";
 }

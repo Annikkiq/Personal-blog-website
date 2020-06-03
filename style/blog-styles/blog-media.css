@@ -3,17 +3,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-}
-
-@media only screen and (max-width:650px) {
-    .social-media {
-        grid-area: about;
-        align-items: flex-end;
-        justify-content: center;
-        height: 250px;
-        margin-top: .5rem;
-    }
+    height: 12.5em;
 }
 
 .social-media ul {
@@ -36,4 +26,16 @@
 
 .social-media ul li a:active {
     color: black;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width:650px) {
+    .social-media {
+        grid-area: about;
+        align-items: flex-end;
+        justify-content: center;
+        height: 250px;
+        margin-top: .5rem;
+    }
 }

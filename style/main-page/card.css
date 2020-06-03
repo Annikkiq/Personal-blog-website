@@ -20,6 +20,8 @@
     text-align: center;
     color: black;
     padding: 3em;
+    max-width: 22.5em;
+    min-width: 9.4em;
     margin-right: 3em;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -28,32 +30,32 @@
     -o-border-radius: 3px;
 }
 
+.card h3 {
+    flex-flow: row nowrap;
+        width: 100%;
+}
+
+
 .card-1 {
     background-image: url("../../img/pic1-unsplash.jpg");
-    background-size: cover;
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .card-2 {
     background-image: url("../../img/pic2-unsplash.jpg");
-    background-size: cover;
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .card-3 {
     background-image: url("../../img/pic3-unsplash.jpg");
-    background-size: cover;
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .card-4 {
     background-image: url("../../img/pic4-unsplash.jpg");
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
     background-size: cover;
     background-color: #cccccc;
     background-position: center;
@@ -68,8 +70,7 @@
 .card button {
     background-image: linear-gradient(to right, rgb(52, 122, 168), rgb(201, 92, 168));
     border: none;
-    padding: 10px;
-    font-size: 16px;
+    padding: .6em;
     cursor: pointer;
     border-radius: 1em;
     -webkit-border-radius: 1em;
@@ -79,7 +80,7 @@
 }
 
 .card button:hover {
-    box-shadow: .3em .2em 20px rgba(255, 255, 255, 0.521);
+    box-shadow: .3em .2em 1.2em rgba(255, 255, 255, 0.521);
 }
 
 .card a:active{
@@ -98,4 +99,87 @@
     -ms-transform: translateY(-.4em) scale(1.1);
     -o-transform: translateY(-.4em) scale(1.1);
     box-shadow: .3em .2em 20px rgba(0, 0, 0, 0.521);
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width:951px) and (max-width: 1330px) {
+    .cards-section {
+        height: 100vh;
+        }
+}
+
+@media only screen and (min-width:951px) and (max-width: 1330px) {
+    .cards-container {
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: flex-start;
+        width: 1300px;
+        height: 900px;
+    }
+}
+
+@media only screen and (min-width:951px) and (max-width: 1330px) {
+    .card {
+        flex-flow: column wrap;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width:750px) and (max-width:950px) {
+    .cards-section {
+        margin-left: 0;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width:750px) and (max-width:950px) {
+    .cards-container {
+        flex-flow: column wrap;
+        align-items: flex-end;
+        width: 900px;
+        height: 900px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width:750px) and (max-width:950px) {
+    .card {
+        flex-flow: column wrap;
+        height: 300px;
+        width: 210px;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (min-width:382px) and (max-width:749px) {
+    .cards-section {
+        height: 1500px;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:749px) {
+    .cards-container {
+        flex-flow: column nowrap;
+        align-items: flex-end;
+        width: 625px;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:749px) {
+    .card {
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:381px) {
+    .cards-section {
+        height: 1700px;
+    }
 }

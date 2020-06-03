@@ -9,13 +9,6 @@
     text-align: center;
 }
 
-@media only screen and (max-width:650px) {
-    .about-section {
-        grid-area: main;
-        margin-left:  10px;
-    }
-}
-
 .about-section h2 {
     background-image: linear-gradient(to right, #722cb4e7, #a068c0e0);
     -webkit-background-clip: text;
@@ -26,4 +19,13 @@
 
 .about-section ul {
     list-style: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width:650px) {
+    .about-section {
+        grid-area: main;
+        margin-left: 10px;
+    }
 }
