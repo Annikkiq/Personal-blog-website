@@ -3,8 +3,21 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    margin-top: 5rem;
-    height: 25vh;
+    height: 10vh;
+    font-size: small;
+}
+
+@media only screen and (max-width:650px) {
+    .blog-footer {
+        height: 8vh;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:1379px) {
+    .blog-footer {
+        margin-top: 4rem;
+    }
 }
 
 .blog-footer p:hover {
