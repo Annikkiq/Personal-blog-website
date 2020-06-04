@@ -30,6 +30,12 @@
 
 /*MEDIA QUERIES*/
 
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+    .social-media {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width:650px) {
     .social-media {
         grid-area: about;
@@ -37,5 +43,13 @@
         justify-content: center;
         height: 250px;
         margin-top: .5rem;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .social-media {
+        grid-area: foot;
+        height: 6em;
+        margin-bottom: .5rem;
     }
 }

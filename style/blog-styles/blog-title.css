@@ -28,6 +28,20 @@
 
 /*MEDIA QUERIES*/
 
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+    .blog-header {
+        width: 100%;
+        height: 8rem;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+    .go-back a {
+        font-size: 25px;
+    }
+}
+
 @media only screen and (max-width:650px) {
     .go-back {
         grid-area: about;
@@ -37,9 +51,19 @@
     }
 }
 
-@media only screen and (max-width:380px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .blog-header {
+        grid-area: tt;
+        font-size: 18px;
+        height: 6rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .go-back {
-        margin-left: 1.5rem;
-        align-items: flex-start;
+        grid-area: tt;
+        font-size: 16px;
+        margin-top: 2.2rem;
     }
 }

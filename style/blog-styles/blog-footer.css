@@ -17,6 +17,12 @@
 
 /*MEDIA QUERIES*/
 
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+    .blog-footer {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (min-width:1379px) {
     .blog-footer {
         margin-top: 4rem;
@@ -27,5 +33,11 @@
     .blog-footer {
         height: 8vh;
         font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .blog-footer {
+        grid-area: foot;
     }
 }

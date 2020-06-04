@@ -3,7 +3,7 @@ nav {
     background: linear-gradient(0.25turn, #b18de0, #a1f9fc, #59f7b5);
     display: flex;
     flex-flow: row wrap;
-    width: 100vw;
+    width: 100%;
 }
 
 nav ul {
@@ -46,4 +46,33 @@ nav ul {
 .navbar_item a:hover {
     text-shadow: .3em .2em .2em rgb(97, 97, 97);
     letter-spacing: .1em;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    nav {
+        grid-area: nv;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    nav ul {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .primary_header {
+        font-size: 1em;
+        margin-bottom: .5em;
+        margin-top: .5em;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .navbar {
+        width: 100%;
+    }
 }

@@ -23,9 +23,27 @@
 
 /*MEDIA QUERIES*/
 
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+    .about-section {
+        font-size: 25px;
+    }
+}
+
 @media only screen and (max-width:650px) {
     .about-section {
         grid-area: main;
         margin-left: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .about-section {
+        grid-area: author;
+        width: 100vw;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
     }
 }
